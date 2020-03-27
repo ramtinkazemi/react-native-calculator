@@ -10,6 +10,9 @@ pool:
   vmImage: 'macOS-10.15'
 
 variables:
+  scheme: ''
+  sdk: 'iphoneos'
+  configuration: 'Release'
   - group: react-native-test
 
 steps:
