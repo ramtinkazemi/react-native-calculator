@@ -9,6 +9,9 @@ trigger:
 pool:
   vmImage: 'macOS-10.15'
 
+variables:
+  - group: react-native-test
+
 steps:
 - task: NodeTool@0
   inputs:
