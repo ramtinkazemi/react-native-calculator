@@ -8,3 +8,6 @@ phases:
       - cd $CODEBUILD_SRC_DIR
       - npm install
       # - npm run test
+artifacts:
+  files:
+    - "**/*"
