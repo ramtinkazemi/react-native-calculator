@@ -20,14 +20,14 @@ steps:
 
 - script: |
     npm install
-    npm run build
+    # npm run build
   displayName: 'npm install and build'
 
-- script: npm run lint
-  displayName: 'Run lint'
+# - script: npm run lint
+#   displayName: 'Run lint'
 
-- script: npm run test
-  displayName: 'Run unit tests'
+# - script: npm run test
+#   displayName: 'Run unit tests'
 
 # - task: InstallAppleCertificate@2
 #   inputs:
